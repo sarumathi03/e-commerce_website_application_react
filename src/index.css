@@ -1,0 +1,42 @@
+.box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap
+}
+body{
+  background-color: #aee1f9;
+  background-image :linear-gradient(315deg, #aee1f9 0%, #f6ebe6 74%);
+
+}
+.material-icons{
+  font-size:2.4em;
+  cursor: pointer;
+}
+.card{
+  width: 300px;
+}
+.card .card-image .card-title{
+  color: rgb(250, 249, 249);
+  font-weight: 400
+}
+.cart{
+  margin-top:40px;
+}
+.collection .collection-item{
+  display: flex;
+}
+.collection-item.avatar .title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ee6e73;
+  display: block;
+  margin-bottom: 20px;
+  
+}
+.collection .collection-item img{
+  width: 150px;
+  margin-right: 25px;
+}
+.item-desc{
+  align-self:center;
+}
