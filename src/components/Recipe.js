@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 //import { addShipping } from './actions/cartActions'
+function thanks(){
+    alert("Your order has been successfully placed....Thank you for shopping with us!!... Happy Shopping!!!!")
+}
 class Recipe extends Component{
     
     componentWillUnmount() {
@@ -31,7 +34,8 @@ class Recipe extends Component{
                         <li className="collection-item"><b>Total:₹{this.props.total}</b></li>
                     </div>
                     <div className="checkout">
-                        <button className="waves-effect waves-light btn">Checkout</button>
+                        <button className="waves-effect waves-light btn" onClick={thanks}>Checkout
+                        </button>
                     </div>
                  </div>
         )
